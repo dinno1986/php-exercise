@@ -19,4 +19,6 @@ function situation ($genre,$age){
 	}
 }
 
-echo situation("homme","19");
+echo situation("femme","20");
+
+?>
