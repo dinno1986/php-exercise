@@ -1,10 +1,10 @@
 <?php
 
-function chaine(){
-	$string="allez";
-	return $suite=$string." "."paris!";
+function chaine($string,$suite){
+	
+	return $string." "."$suite";
 
 }
 
-echo chaine();
+echo chaine("allez","paris");
 ?>

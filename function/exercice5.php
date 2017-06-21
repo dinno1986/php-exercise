@@ -1,11 +1,10 @@
 <?php
 
-function concatenation (){
-	$number=652;
-	$string="euros";
+function concatenation ($number,$string){
+	
 	return $number." ".$string;
 }
 
-echo concatenation();
+echo concatenation("652","euros");
 
 ?>

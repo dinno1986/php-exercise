@@ -1,8 +1,7 @@
 <?php
-function chaine(){
-	$string="paris est magique!!!";
+function chaine($string){
 	return $string;
 }
 
-echo chaine();
+echo chaine('PSG!!');
 ?>

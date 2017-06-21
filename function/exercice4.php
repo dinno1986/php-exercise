@@ -1,8 +1,7 @@
 <?php
 
-function nombre(){
-	$a=8;
-	$b=8;
+function nombre($a,$b){
+	
 
 	if ($a===$b) {
 		echo "les 2 nombres sont identiques";		
@@ -18,6 +17,6 @@ function nombre(){
 
 }
 
-echo nombre();
+echo nombre(8,8);
 
 ?>
