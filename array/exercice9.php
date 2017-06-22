@@ -1,5 +1,6 @@
 
 <?php
+
 $region = array (
 	'02' => 'Aisne',
 	'59' => 'Nord',
@@ -11,3 +12,5 @@ $region = array (
 foreach ($region as $cle=>$valeur) {
 	echo $cle.' : '.$valeur. '<br/>';
 }
+
+?>
