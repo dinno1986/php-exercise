@@ -33,7 +33,7 @@ if (isset($_FILES[fichier])) {
 	//2. substr(chaine,1) ignore le premier caractère de chaine.
 	//3. strtolower met l'extension en minuscules.
 	$extension_upload = strtolower(  substr(  strrchr($_FILES['fichier']['name'], '.')  ,1)  );
-	if ( in_array($extension_upload,$extensions_valides) ) echo " Envoi du fichier Extension correcte";
+	if ( in_array($extension_upload,$extensions_valides) ) echo " Envoi du fichier Extension correcte"." ".'<br/>';
 	else{
 		echo" le fichier doit être au format pdf";
 	}
@@ -43,11 +43,11 @@ if (isset($_FILES[fichier])) {
 
 
 	
- // 	$genre=$_POST['genre'];
-	// $prenom=$_POST['prenom'];
-	// $nom=$_POST['nom'];
-	// $fichier=$_POST['fichier'];
-	// echo($genre." ".$prenom." ".$nom." ".$fichier);   
+   	$genre=$_POST['genre'];
+	 $prenom=$_POST['prenom'];
+	  $nom=$_POST['nom'];
+	 $fichier=$_FILES[',name'];
+	 echo($genre." ".$prenom." ".$nom." ".$fichier);   
 	?>
 
 	</form>
