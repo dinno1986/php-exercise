@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,11 +24,11 @@
 	$genre=$_POST['genre'];
 	$prenom=$_POST['prenom'];
 	$nom=$_POST['nom'];
-
 	echo($genre." ".$prenom." ".$nom);
-
 ?>
 
 
 </body>
 </html>
+
+
